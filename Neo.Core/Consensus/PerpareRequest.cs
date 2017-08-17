@@ -3,6 +3,7 @@ using Neo.IO;
 using System;
 using System.IO;
 using System.Linq;
+using Neo.Core.Consensus;
 
 namespace Neo.Consensus
 {

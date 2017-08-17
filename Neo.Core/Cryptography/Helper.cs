@@ -17,7 +17,7 @@ namespace Neo.Cryptography
         private static ThreadLocal<SHA256> _sha256 = new ThreadLocal<SHA256>(() => SHA256.Create());
         private static ThreadLocal<RIPEMD160Managed> _ripemd160 = new ThreadLocal<RIPEMD160Managed>(() => new RIPEMD160Managed());
 
-        internal static byte[] AesDecrypt(this byte[] data, byte[] key, byte[] iv)
+        public static byte[] AesDecrypt(this byte[] data, byte[] key, byte[] iv)
         {
             if (data == null || key == null || iv == null) throw new ArgumentNullException();
             if (data.Length % 16 != 0 || key.Length != 32 || iv.Length != 16) throw new ArgumentException();
@@ -31,7 +31,7 @@ namespace Neo.Cryptography
             }
         }
 
-        internal static byte[] AesEncrypt(this byte[] data, byte[] key, byte[] iv)
+        public static byte[] AesEncrypt(this byte[] data, byte[] key, byte[] iv)
         {
             if (data == null || key == null || iv == null) throw new ArgumentNullException();
             if (data.Length % 16 != 0 || key.Length != 32 || iv.Length != 16) throw new ArgumentException();
@@ -85,7 +85,7 @@ namespace Neo.Cryptography
             return _sha256.Value.ComputeHash(value, offset, count);
         }
 
-        internal static byte[] ToAesKey(this string password)
+        public static byte[] ToAesKey(this string password)
         {
             using (SHA256 sha256 = SHA256.Create())
             {
@@ -98,7 +98,7 @@ namespace Neo.Cryptography
             }
         }
 
-        internal static byte[] ToAesKey(this SecureString password)
+        public static byte[] ToAesKey(this SecureString password)
         {
             using (SHA256 sha256 = SHA256.Create())
             {

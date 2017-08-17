@@ -1,11 +1,13 @@
 ﻿using Neo.Core;
 using Neo.Cryptography.ECC;
 using Neo.IO.Caching;
-using Neo.VM;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
+using Neo.VM;
+using ECPoint = Neo.Cryptography.ECC.ECPoint;
 
 namespace Neo.SmartContract
 {

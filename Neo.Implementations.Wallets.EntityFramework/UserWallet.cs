@@ -7,10 +7,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Security;
-using CoreTransaction = Neo.Core.Transaction;
 using WalletCoin = Neo.Wallets.Coin;
 using WalletContract = Neo.Wallets.Contract;
 using WalletKeyPair = Neo.Wallets.KeyPair;
+using CoreTransaction = Neo.Core.Transaction;
 
 namespace Neo.Implementations.Wallets.EntityFramework
 {

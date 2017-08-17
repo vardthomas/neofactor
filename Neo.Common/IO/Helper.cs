@@ -41,7 +41,7 @@ namespace Neo.IO
                 return sizeof(byte) + sizeof(uint);
         }
 
-        internal static int GetVarSize<T>(this T[] value)
+        public static int GetVarSize<T>(this T[] value)
         {
             int value_size;
             Type t = typeof(T);

@@ -2,6 +2,7 @@
 using System;
 using System.IO;
 using System.Reflection;
+using Neo.Core.Consensus;
 
 namespace Neo.Consensus
 {

@@ -1,12 +1,12 @@
-﻿using Neo.Core;
+﻿using System.Collections.Generic;
+using Neo.Consensus;
 using Neo.Cryptography;
 using Neo.Cryptography.ECC;
 using Neo.IO;
 using Neo.Network.Payloads;
-using System.Collections.Generic;
-using System.Linq;
+using Neo.Wallets;
 
-namespace Neo.Consensus
+namespace Neo.Core.Consensus
 {
     internal class ConsensusContext
     {

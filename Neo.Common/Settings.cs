@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace Neo
 {
-    internal class Settings
+    public class Settings
     {
         public uint Magic { get; private set; }
         public byte AddressVersion { get; private set; }
@@ -18,7 +18,7 @@ namespace Neo
 
         static Settings()
         {
-            IConfigurationSection section = new ConfigurationBuilder().AddJsonFile("protocol.json").Build().GetSection("ProtocolConfiguration");
+            IConfigurationSection section = null;// = new ConfigurationBuilder().AddJsonFile("protocol.json").Build().GetSection("ProtocolConfiguration");
             Default = new Settings
             {
                 Magic = uint.Parse(section.GetSection("Magic").Value),

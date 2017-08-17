@@ -1,4 +1,4 @@
-﻿namespace Neo.Consensus
+﻿namespace Neo.Core.Consensus
 {
     internal enum ConsensusMessageType : byte
     {

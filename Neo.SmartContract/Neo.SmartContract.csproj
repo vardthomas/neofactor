@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Neo.Common\Neo.Common.csproj" />
+    <ProjectReference Include="..\Neo.Core\Neo.Core.csproj" />
     <ProjectReference Include="..\Neo.Cryptography\Neo.Cryptography.csproj" />
     <ProjectReference Include="..\Neo.VM\Neo.VM.csproj" />
   </ItemGroup>

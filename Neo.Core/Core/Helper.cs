@@ -38,10 +38,6 @@ namespace Neo.Core
             }
         }
 
-        public static UInt160 ToScriptHash(this byte[] script)
-        {
-            return new UInt160(Crypto.Default.Hash160(script));
-        }
 
         internal static bool VerifyScripts(this IVerifiable verifiable)
         {

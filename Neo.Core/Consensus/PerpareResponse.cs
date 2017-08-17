@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using Neo.Core.Consensus;
 
 namespace Neo.Consensus
 {

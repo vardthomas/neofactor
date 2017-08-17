@@ -208,7 +208,7 @@ namespace Neo
             }
         }
 
-        internal static long WeightedAverage<T>(this IEnumerable<T> source, Func<T, long> valueSelector, Func<T, long> weightSelector)
+        public static long WeightedAverage<T>(this IEnumerable<T> source, Func<T, long> valueSelector, Func<T, long> weightSelector)
         {
             long sum_weight = 0;
             long sum_value = 0;
@@ -222,7 +222,7 @@ namespace Neo
             return sum_value / sum_weight;
         }
 
-        internal static IEnumerable<TResult> WeightedFilter<T, TResult>(this IList<T> source, double start, double end, Func<T, long> weightSelector, Func<T, long, TResult> resultSelector)
+        public static IEnumerable<TResult> WeightedFilter<T, TResult>(this IList<T> source, double start, double end, Func<T, long> weightSelector, Func<T, long, TResult> resultSelector)
         {
             if (source == null) throw new ArgumentNullException(nameof(source));
             if (start < 0 || start > 1) throw new ArgumentOutOfRangeException(nameof(start));

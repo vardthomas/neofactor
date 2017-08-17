@@ -9,16 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Cryptography\**" />
-    <EmbeddedResource Remove="Cryptography\**" />
-    <None Remove="Cryptography\**" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Framework.ConfigurationModel.Json" Version="1.0.0-beta4" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Neo.Common\Neo.Common.csproj" />
-    <ProjectReference Include="..\Neo.Database.Models\Neo.Database.Models.csproj" />
-    <ProjectReference Include="..\Neo.Implementations.Wallets.EntityFramework\Neo.Implementations.Wallets.EntityFramework.csproj" />
-    <ProjectReference Include="..\Neo.Network\Neo.Network.csproj" />
     <ProjectReference Include="..\Neo.VM\Neo.VM.csproj" />
   </ItemGroup>
 
@@ -28,6 +24,10 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Pack>true</Pack>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Cryptography\ECC\" />
   </ItemGroup>
 
 </Project>
