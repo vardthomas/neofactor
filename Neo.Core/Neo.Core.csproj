@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Neo.Common\Neo.Common.csproj" />
+    <ProjectReference Include="..\Neo.Implementations.Wallets.EntityFramework\Neo.Implementations.Wallets.EntityFramework.csproj" />
     <ProjectReference Include="..\Neo.VM\Neo.VM.csproj" />
   </ItemGroup>
 
@@ -14,6 +16,10 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Pack>true</Pack>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Cryptography\" />
   </ItemGroup>
 
 </Project>

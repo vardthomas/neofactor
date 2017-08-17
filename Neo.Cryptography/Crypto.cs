@@ -1,5 +1,4 @@
-﻿using Neo.VM;
-using System;
+﻿using System;
 using System.Linq;
 using System.Security.Cryptography;
 

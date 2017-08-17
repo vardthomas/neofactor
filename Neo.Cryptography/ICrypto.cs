@@ -1,4 +1,4 @@
-﻿namespace Neo.VM
+﻿namespace Neo.Cryptography
 {
     /// <summary>
     ///   <en>
