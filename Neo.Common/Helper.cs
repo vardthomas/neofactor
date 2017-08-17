@@ -6,6 +6,7 @@ using System.Numerics;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
 using System.Text;
+using Neo.Cryptography;
 
 namespace Neo
 {
@@ -143,6 +144,11 @@ namespace Neo
         public static DateTime ToDateTime(this uint timestamp)
         {
             return unixEpoch.AddSeconds(timestamp).ToLocalTime();
+        }
+
+        public static UInt160 ToScriptHash(this byte[] script)
+        {
+            return new UInt160(Crypto.Default.Hash160(script));
         }
 
         public static DateTime ToDateTime(this ulong timestamp)

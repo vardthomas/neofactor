@@ -1,7 +1,6 @@
 ﻿using Neo.IO;
 using Neo.IO.Json;
 using Neo.VM;
-using Neo.Wallets;
 using System;
 using System.IO;
 

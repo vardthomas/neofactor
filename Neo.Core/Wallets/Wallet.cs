@@ -291,6 +291,7 @@ namespace Neo.Wallets
             return GetKey(publicKey.EncodePoint(true).ToScriptHash());
         }
 
+
         public KeyPair GetKey(UInt160 publicKeyHash)
         {
             lock (keys)
