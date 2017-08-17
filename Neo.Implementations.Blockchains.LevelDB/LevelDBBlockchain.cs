@@ -3,13 +3,13 @@ using Neo.Cryptography;
 using Neo.Cryptography.ECC;
 using Neo.IO;
 using Neo.IO.Caching;
-using Neo.SmartContract;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Threading;
+using Neo.SmartContract;
 
 namespace Neo.Implementations.Blockchains.LevelDB
 {
@@ -131,7 +131,7 @@ namespace Neo.Implementations.Blockchains.LevelDB
             return true;
         }
 
-        protected internal override void AddHeaders(IEnumerable<Header> headers)
+        protected override void AddHeaders(IEnumerable<Header> headers)
         {
             lock (header_index)
             {

@@ -30,13 +30,13 @@ namespace Neo
                 : (w < 1 << 29 ? (w < 1 << 28 ? 28 : 29) : (w < 1 << 30 ? 30 : 31)))));
         }
 
-        internal static int GetBitLength(this BigInteger i)
+        public static int GetBitLength(this BigInteger i)
         {
             byte[] b = i.ToByteArray();
             return (b.Length - 1) * 8 + BitLen(i.Sign > 0 ? b[b.Length - 1] : 255 - b[b.Length - 1]);
         }
 
-        internal static int GetLowestSetBit(this BigInteger i)
+        public static int GetLowestSetBit(this BigInteger i)
         {
             if (i.Sign == 0)
                 return -1;
@@ -62,7 +62,7 @@ namespace Neo
             return result;
         }
 
-        internal static BigInteger Mod(this BigInteger x, BigInteger y)
+        public static BigInteger Mod(this BigInteger x, BigInteger y)
         {
             x %= y;
             if (x.Sign < 0)
@@ -70,7 +70,7 @@ namespace Neo
             return x;
         }
 
-        internal static BigInteger ModInverse(this BigInteger a, BigInteger n)
+        public static BigInteger ModInverse(this BigInteger a, BigInteger n)
         {
             BigInteger i = n, v = 0, d = 1;
             while (a > 0)
@@ -102,7 +102,7 @@ namespace Neo
             return new BigInteger(b);
         }
 
-        internal static BigInteger NextBigInteger(this RandomNumberGenerator rng, int sizeInBits)
+        public static BigInteger NextBigInteger(this RandomNumberGenerator rng, int sizeInBits)
         {
             if (sizeInBits < 0)
                 throw new ArgumentException("sizeInBits must be non-negative");
@@ -135,7 +135,7 @@ namespace Neo
             return source.Select(selector).Sum();
         }
 
-        internal static bool TestBit(this BigInteger i, int index)
+        public static bool TestBit(this BigInteger i, int index)
         {
             return (i & (BigInteger.One << index)) > BigInteger.Zero;
         }
@@ -159,7 +159,7 @@ namespace Neo
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        unsafe internal static int ToInt32(this byte[] value, int startIndex)
+        public static unsafe int ToInt32(this byte[] value, int startIndex)
         {
             fixed (byte* pbyte = &value[startIndex])
             {
@@ -168,7 +168,7 @@ namespace Neo
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        unsafe internal static long ToInt64(this byte[] value, int startIndex)
+        public static unsafe long ToInt64(this byte[] value, int startIndex)
         {
             fixed (byte* pbyte = &value[startIndex])
             {
@@ -182,7 +182,7 @@ namespace Neo
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        unsafe internal static ushort ToUInt16(this byte[] value, int startIndex)
+        public static unsafe ushort ToUInt16(this byte[] value, int startIndex)
         {
             fixed (byte* pbyte = &value[startIndex])
             {
@@ -191,7 +191,7 @@ namespace Neo
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        unsafe internal static uint ToUInt32(this byte[] value, int startIndex)
+        public static unsafe uint ToUInt32(this byte[] value, int startIndex)
         {
             fixed (byte* pbyte = &value[startIndex])
             {
@@ -200,7 +200,7 @@ namespace Neo
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        unsafe internal static ulong ToUInt64(this byte[] value, int startIndex)
+        public static unsafe ulong ToUInt64(this byte[] value, int startIndex)
         {
             fixed (byte* pbyte = &value[startIndex])
             {

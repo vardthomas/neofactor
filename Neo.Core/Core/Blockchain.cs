@@ -153,7 +153,7 @@ namespace Neo.Core
         /// 将指定的区块头添加到区块头链中
         /// </summary>
         /// <param name="headers">要添加的区块头列表</param>
-        protected internal abstract void AddHeaders(IEnumerable<Header> headers);
+        protected abstract void AddHeaders(IEnumerable<Header> headers);
 
         public static Fixed8 CalculateBonus(IEnumerable<CoinReference> inputs, bool ignoreClaimed = true)
         {

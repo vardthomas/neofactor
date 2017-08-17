@@ -3,6 +3,7 @@ using System.Linq;
 using System.Numerics;
 using System.Security.Cryptography;
 using System.Text;
+using Neo.Cryptography;
 
 namespace Neo.VM
 {

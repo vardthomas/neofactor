@@ -31,7 +31,7 @@ namespace Neo.IO
             return serializable;
         }
 
-        internal static int GetVarSize(int value)
+        public static int GetVarSize(int value)
         {
             if (value < 0xFD)
                 return sizeof(byte);
@@ -70,7 +70,7 @@ namespace Neo.IO
             return GetVarSize(value.Length) + value_size;
         }
 
-        internal static int GetVarSize(this string value)
+        public static int GetVarSize(this string value)
         {
             int size = Encoding.UTF8.GetByteCount(value);
             return GetVarSize(size) + size;
