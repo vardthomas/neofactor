@@ -1,7 +1,7 @@
-﻿using Neo.IO;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Neo.Common.IO;
 
 namespace Neo.Implementations.Blockchains.LevelDB
 {

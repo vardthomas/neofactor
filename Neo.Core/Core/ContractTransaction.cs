@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using Neo.Common;
 
 namespace Neo.Core
 {

@@ -1,9 +1,10 @@
-﻿using Neo.IO;
-using Neo.IO.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using Neo.Common;
+using Neo.Common.IO;
+using Neo.Common.IO.Json;
 
 namespace Neo.Core
 {

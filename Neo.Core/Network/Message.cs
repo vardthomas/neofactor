@@ -1,11 +1,12 @@
-﻿using Neo.Cryptography;
-using Neo.IO;
-using System;
+﻿using System;
 using System.IO;
 using System.Net.WebSockets;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Neo.Common;
+using Neo.Common.Cryptography;
+using Neo.Common.IO;
 
 namespace Neo.Network
 {

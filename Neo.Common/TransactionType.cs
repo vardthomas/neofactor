@@ -1,4 +1,4 @@
-﻿namespace Neo.Core
+﻿namespace Neo.Common
 {
     /// <summary>
     /// 交易类型

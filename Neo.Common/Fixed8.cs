@@ -1,8 +1,8 @@
-﻿using Neo.IO;
-using System;
+﻿using System;
 using System.IO;
+using Neo.Common.IO;
 
-namespace Neo
+namespace Neo.Common
 {
     /// <summary>
     /// 精确到10^-8的64位定点数，将舍入误差降到最低。

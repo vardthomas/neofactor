@@ -1,8 +1,9 @@
-﻿using Neo.IO;
-using System;
+﻿using System;
 using System.IO;
 using System.Linq;
 using System.Net;
+using Neo.Common;
+using Neo.Common.IO;
 
 namespace Neo.Network.Payloads
 {

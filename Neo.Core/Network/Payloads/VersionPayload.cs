@@ -1,7 +1,8 @@
 ﻿using Neo.Core;
-using Neo.IO;
 using System;
 using System.IO;
+using Neo.Common;
+using Neo.Common.IO;
 
 namespace Neo.Network.Payloads
 {

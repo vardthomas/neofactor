@@ -1,6 +1,7 @@
 ﻿using Neo.VM;
 using System;
 using System.Text;
+using Neo.Common;
 
 namespace Neo.SmartContract
 {
@@ -15,7 +16,7 @@ namespace Neo.SmartContract
         public Fixed8 GasConsumed => new Fixed8(gas_consumed);
 
         public ApplicationEngine(IScriptContainer container, IScriptTable table, InteropService service, Fixed8 gas, bool testMode = false)
-            : base(container, Cryptography.Crypto.Default, table, service)
+            : base(container, Common.Cryptography.Crypto.Default, table, service)
         {
             this.gas_amount = gas_free + gas.GetData();
             this.testMode = testMode;

@@ -1,6 +1,4 @@
 ﻿using Neo.Core;
-using Neo.Cryptography;
-using Neo.IO.Caching;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +6,10 @@ using System.Security;
 using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading;
+using Neo.Common;
+using Neo.Common.Cryptography;
+using Neo.Common.IO.Caching;
+using ECPoint = Neo.Common.Cryptography.ECC.ECPoint;
 
 namespace Neo.Wallets
 {
@@ -162,7 +164,7 @@ namespace Neo.Wallets
             return AddressState.None;
         }
 
-        public bool ContainsKey(Cryptography.ECC.ECPoint publicKey)
+        public bool ContainsKey(ECPoint publicKey)
         {
             return ContainsKey(publicKey.EncodePoint(true).ToScriptHash());
         }
@@ -286,7 +288,7 @@ namespace Neo.Wallets
                 return unspents_ordered.Take(i).Concat(new[] { unspents_ordered.Last(p => p.Output.Value >= amount) }).ToArray();
         }
 
-        public KeyPair GetKey(Cryptography.ECC.ECPoint publicKey)
+        public KeyPair GetKey(ECPoint publicKey)
         {
             return GetKey(publicKey.EncodePoint(true).ToScriptHash());
         }

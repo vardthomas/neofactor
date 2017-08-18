@@ -1,4 +1,4 @@
-﻿namespace Neo.Core
+﻿namespace Neo.Common
 {
     /// <summary>
     /// 表示智能合约的参数类型

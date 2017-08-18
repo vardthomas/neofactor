@@ -1,6 +1,4 @@
 ﻿using Neo.Core;
-using Neo.Cryptography;
-using Neo.IO;
 using Neo.Network.Payloads;
 using System;
 using System.Collections;
@@ -12,7 +10,10 @@ using System.Runtime.Serialization;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Transactions;
-using ISerializable = Neo.IO.ISerializable;
+using Neo.Common;
+using Neo.Common.Cryptography;
+using Neo.Common.IO;
+using ISerializable = Neo.Common.IO.ISerializable;
 using Transaction = Neo.Core.Transaction;
 
 namespace Neo.Network

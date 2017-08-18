@@ -1,10 +1,11 @@
-﻿using Neo.Cryptography;
-using Neo.SmartContract;
+﻿using Neo.SmartContract;
 using Neo.VM;
 using Neo.Wallets;
 using System;
 using System.IO;
 using System.Linq;
+using Neo.Common;
+using Neo.Common.Cryptography;
 
 namespace Neo.Core
 {

@@ -1,6 +1,7 @@
 ﻿using Neo.Core;
-using Neo.IO.Caching;
 using System;
+using Neo.Common;
+using Neo.Common.IO.Caching;
 
 namespace Neo.Wallets
 {

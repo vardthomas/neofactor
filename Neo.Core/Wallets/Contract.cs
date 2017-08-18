@@ -1,10 +1,11 @@
 ﻿using Neo.Core;
-using Neo.Cryptography.ECC;
-using Neo.IO;
 using Neo.VM;
 using System;
 using System.IO;
 using System.Linq;
+using Neo.Common;
+using Neo.Common.Cryptography.ECC;
+using Neo.Common.IO;
 
 namespace Neo.Wallets
 {

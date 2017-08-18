@@ -1,10 +1,11 @@
-﻿using Neo.Cryptography.ECC;
-using Neo.IO;
-using Neo.IO.Json;
-using Neo.VM;
+﻿using Neo.VM;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using Neo.Common;
+using Neo.Common.Cryptography.ECC;
+using Neo.Common.IO;
+using Neo.Common.IO.Json;
 
 namespace Neo.Core
 {
@@ -16,7 +17,7 @@ namespace Neo.Core
         public Dictionary<UInt256, Fixed8> Balances;
 
         public override int Size => base.Size + ScriptHash.Size + sizeof(bool) + Votes.GetVarSize()
-            + IO.Helper.GetVarSize(Balances.Count) + Balances.Count * (32 + 8);
+            + Common.IO.Helper.GetVarSize(Balances.Count) + Balances.Count * (32 + 8);
 
         public AccountState() { }
 

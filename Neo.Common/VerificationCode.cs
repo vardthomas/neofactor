@@ -1,4 +1,4 @@
-﻿namespace Neo.Core
+﻿namespace Neo.Common
 {
     public class VerificationCode : ICode
     {

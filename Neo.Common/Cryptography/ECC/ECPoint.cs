@@ -1,11 +1,11 @@
-﻿using Neo.IO;
-using System;
+﻿using System;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Numerics;
+using Neo.Common.IO;
 
-namespace Neo.Cryptography.ECC
+namespace Neo.Common.Cryptography.ECC
 {
     public class ECPoint : IComparable<ECPoint>, IEquatable<ECPoint>, ISerializable
     {

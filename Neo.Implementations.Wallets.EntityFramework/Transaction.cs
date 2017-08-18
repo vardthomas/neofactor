@@ -1,5 +1,6 @@
 ﻿using Neo.Core;
 using System;
+using Neo.Common;
 
 namespace Neo.Implementations.Wallets.EntityFramework
 {

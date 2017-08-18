@@ -1,7 +1,8 @@
-﻿using Neo.IO;
-using Neo.VM;
+﻿using Neo.VM;
 using System;
 using System.IO;
+using Neo.Common;
+using Neo.Common.IO;
 
 namespace Neo.Core
 {

@@ -1,6 +1,4 @@
 ﻿using Neo.Core;
-using Neo.Cryptography;
-using Neo.IO;
 using Neo.Network;
 using Neo.Network.Payloads;
 using Neo.Wallets;
@@ -8,6 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
+using Neo.Common;
+using Neo.Common.Cryptography;
+using Neo.Common.IO;
 using Neo.Core.Consensus;
 
 namespace Neo.Consensus

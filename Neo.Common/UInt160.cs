@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Linq;
 
-namespace Neo
+namespace Neo.Common
 {
     public class UInt160 : UIntBase, IComparable<UInt160>, IEquatable<UInt160>
     {

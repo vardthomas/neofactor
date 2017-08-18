@@ -1,8 +1,8 @@
-﻿using Neo.Cryptography;
-using System;
+﻿using System;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
+using Neo.Common.Cryptography;
 
 namespace Neo.Implementations.Blockchains.LevelDB
 {

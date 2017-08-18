@@ -2,7 +2,7 @@
 using System.Collections.ObjectModel;
 using System.Linq;
 
-namespace Neo.IO.Caching
+namespace Neo.Common.IO.Caching
 {
     public class TrackableCollection<TKey, TItem> : KeyedCollection<TKey, TItem> where TItem : ITrackable<TKey>
     {

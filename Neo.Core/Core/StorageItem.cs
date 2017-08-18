@@ -1,5 +1,5 @@
-﻿using Neo.IO;
-using System.IO;
+﻿using System.IO;
+using Neo.Common.IO;
 
 namespace Neo.Core
 {

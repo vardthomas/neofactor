@@ -1,9 +1,9 @@
-﻿using Neo.IO;
-using System;
+﻿using System;
 using System.IO;
 using System.Linq;
+using Neo.Common.IO;
 
-namespace Neo
+namespace Neo.Common
 {
     public abstract class UIntBase : IEquatable<UIntBase>, ISerializable
     {

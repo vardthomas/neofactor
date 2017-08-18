@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
+using Neo.Common;
+using Neo.Common.Cryptography;
+using Neo.Common.Cryptography.ECC;
+using Neo.Common.IO;
 using Neo.Consensus;
-using Neo.Cryptography;
-using Neo.Cryptography.ECC;
-using Neo.IO;
 using Neo.Network.Payloads;
 using Neo.Wallets;
 

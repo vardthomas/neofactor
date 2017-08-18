@@ -1,7 +1,7 @@
-﻿using Neo.IO;
-using System;
+﻿using System;
 using System.IO;
 using System.Reflection;
+using Neo.Common.IO;
 using Neo.Core.Consensus;
 
 namespace Neo.Consensus

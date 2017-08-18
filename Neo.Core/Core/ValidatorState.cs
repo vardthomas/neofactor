@@ -1,7 +1,7 @@
-﻿using Neo.Cryptography.ECC;
-using Neo.IO;
-using System;
+﻿using System;
 using System.IO;
+using Neo.Common.Cryptography.ECC;
+using Neo.Common.IO;
 
 namespace Neo.Core
 {

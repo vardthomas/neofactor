@@ -1,8 +1,7 @@
-﻿using Neo.IO;
-using Neo.VM;
-using System.IO;
+﻿using System.IO;
+using Neo.Common.IO;
 
-namespace Neo.Core
+namespace Neo.Common
 {
     /// <summary>
     /// 为需要签名的数据提供一个接口

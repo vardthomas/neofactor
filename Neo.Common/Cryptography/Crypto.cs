@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Security.Cryptography;
 
-namespace Neo.Cryptography
+namespace Neo.Common.Cryptography
 {
     public class Crypto : ICrypto
     {

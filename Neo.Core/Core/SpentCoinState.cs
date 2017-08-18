@@ -1,6 +1,7 @@
-﻿using Neo.IO;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
+using Neo.Common;
+using Neo.Common.IO;
 
 namespace Neo.Core
 {
@@ -11,7 +12,7 @@ namespace Neo.Core
         public Dictionary<ushort, uint> Items;
 
         public override int Size => base.Size + TransactionHash.Size + sizeof(uint)
-            + IO.Helper.GetVarSize(Items.Count) + Items.Count * (sizeof(ushort) + sizeof(uint));
+            + Common.IO.Helper.GetVarSize(Items.Count) + Items.Count * (sizeof(ushort) + sizeof(uint));
 
         public override void Deserialize(BinaryReader reader)
         {

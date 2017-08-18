@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Linq;
 
-namespace Neo
+namespace Neo.Common
 {
     public class UInt256 : UIntBase, IComparable<UInt256>, IEquatable<UInt256>
     {

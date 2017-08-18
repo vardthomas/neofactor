@@ -2,8 +2,6 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Neo.Core;
-using Neo.IO;
-using Neo.IO.Json;
 using Neo.Wallets;
 using System;
 using System.IO;
@@ -11,6 +9,9 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using Neo.Common;
+using Neo.Common.IO;
+using Neo.Common.IO.Json;
 
 namespace Neo.Network.RPC
 {

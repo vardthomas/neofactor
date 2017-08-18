@@ -1,11 +1,12 @@
 ﻿using Neo.Core;
-using Neo.Cryptography;
-using Neo.Cryptography.ECC;
-using Neo.IO;
 using Neo.VM;
 using Neo.Wallets;
 using System;
 using System.IO;
+using Neo.Common;
+using Neo.Common.Cryptography;
+using Neo.Common.Cryptography.ECC;
+using Neo.Common.IO;
 
 namespace Neo.Network.Payloads
 {

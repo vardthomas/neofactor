@@ -1,6 +1,4 @@
-﻿using Neo.Core;
-
-namespace Neo.Network
+﻿namespace Neo.Common
 {
     public interface IInventory : IVerifiable
     {

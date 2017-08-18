@@ -1,11 +1,12 @@
-﻿using Neo.Cryptography.ECC;
-using Neo.IO;
-using Neo.IO.Json;
-using Neo.Wallets;
+﻿using Neo.Wallets;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using Neo.Common;
+using Neo.Common.Cryptography.ECC;
+using Neo.Common.IO;
+using Neo.Common.IO.Json;
 
 namespace Neo.Core
 {

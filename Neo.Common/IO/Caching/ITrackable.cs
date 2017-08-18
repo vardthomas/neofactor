@@ -1,4 +1,4 @@
-﻿namespace Neo.IO.Caching
+﻿namespace Neo.Common.IO.Caching
 {
     public interface ITrackable<TKey>
     {

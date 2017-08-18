@@ -1,6 +1,4 @@
 ﻿using Neo.Core;
-using Neo.Cryptography.ECC;
-using Neo.IO.Json;
 using Neo.VM;
 using System;
 using System.Collections.Generic;
@@ -9,6 +7,9 @@ using System.Linq;
 using System.Numerics;
 using System.Reflection;
 using System.Text;
+using Neo.Common;
+using Neo.Common.Cryptography.ECC;
+using Neo.Common.IO.Json;
 
 namespace Neo.Wallets
 {

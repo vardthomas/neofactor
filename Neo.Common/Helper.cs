@@ -6,9 +6,9 @@ using System.Numerics;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
 using System.Text;
-using Neo.Cryptography;
+using Neo.Common.Cryptography;
 
-namespace Neo
+namespace Neo.Common
 {
     public static class Helper
     {

@@ -1,8 +1,9 @@
 ﻿using Neo.Core;
-using Neo.IO;
 using System;
 using System.IO;
 using System.Linq;
+using Neo.Common;
+using Neo.Common.IO;
 using Neo.Core.Consensus;
 
 namespace Neo.Consensus

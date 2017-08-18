@@ -1,4 +1,6 @@
-﻿namespace Neo.Core
+﻿using Neo.Common;
+
+namespace Neo.Core
 {
     /// <summary>
     /// 交易结果，表示交易中资产的变化量

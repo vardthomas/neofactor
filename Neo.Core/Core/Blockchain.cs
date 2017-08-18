@@ -1,11 +1,10 @@
-﻿using Neo.Cryptography;
-using Neo.Cryptography.ECC;
-using Neo.IO;
-using Neo.VM;
+﻿using Neo.VM;
 using Neo.Wallets;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Neo.Common;
+using Neo.Common.Cryptography.ECC;
 
 namespace Neo.Core
 {

@@ -2,8 +2,6 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Neo.Core;
-using Neo.IO;
-using Neo.IO.Caching;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -17,6 +15,8 @@ using System.Reflection;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Neo.Common;
+using Neo.Common.IO.Caching;
 
 namespace Neo.Network
 {

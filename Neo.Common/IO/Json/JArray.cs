@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace Neo.IO.Json
+namespace Neo.Common.IO.Json
 {
     public class JArray : JObject, IList<JObject>
     {

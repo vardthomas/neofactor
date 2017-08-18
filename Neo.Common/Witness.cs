@@ -1,8 +1,8 @@
-﻿using Neo.IO;
-using Neo.IO.Json;
-using System.IO;
+﻿using System.IO;
+using Neo.Common.IO;
+using Neo.Common.IO.Json;
 
-namespace Neo.Core
+namespace Neo.Common
 {
     public class Witness : ISerializable
     {

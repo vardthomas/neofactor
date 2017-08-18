@@ -1,4 +1,5 @@
-﻿using Neo.VM;
+﻿using Neo.Common;
+using Neo.VM;
 
 namespace Neo.SmartContract
 {

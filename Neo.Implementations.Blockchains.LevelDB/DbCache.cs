@@ -1,7 +1,7 @@
-﻿using Neo.IO;
-using Neo.IO.Caching;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using Neo.Common.IO;
+using Neo.Common.IO.Caching;
 
 namespace Neo.Implementations.Blockchains.LevelDB
 {

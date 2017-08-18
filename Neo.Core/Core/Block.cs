@@ -1,11 +1,12 @@
-﻿using Neo.Cryptography;
-using Neo.IO;
-using Neo.IO.Json;
-using Neo.Network;
+﻿using Neo.Network;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using Neo.Common;
+using Neo.Common.Cryptography;
+using Neo.Common.IO;
+using Neo.Common.IO.Json;
 
 namespace Neo.Core
 {

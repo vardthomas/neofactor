@@ -1,15 +1,18 @@
 ﻿using Neo.Core;
-using Neo.Cryptography;
 using System;
 using System.Linq;
 using System.Security.Cryptography;
+using Neo.Common;
+using Neo.Common.Cryptography;
+using ECCurve = Neo.Common.Cryptography.ECC.ECCurve;
+using ECPoint = Neo.Common.Cryptography.ECC.ECPoint;
 
 namespace Neo.Wallets
 {
     public class KeyPair : IEquatable<KeyPair>
     {
         public readonly byte[] PrivateKey;
-        public readonly Cryptography.ECC.ECPoint PublicKey;
+        public readonly ECPoint PublicKey;
         public readonly UInt160 PublicKeyHash;
 
         public KeyPair(byte[] privateKey)
@@ -20,11 +23,11 @@ namespace Neo.Wallets
             Buffer.BlockCopy(privateKey, privateKey.Length - 32, PrivateKey, 0, 32);
             if (privateKey.Length == 32)
             {
-                this.PublicKey = Cryptography.ECC.ECCurve.Secp256r1.G * privateKey;
+                this.PublicKey = ECCurve.Secp256r1.G * privateKey;
             }
             else
             {
-                this.PublicKey = Cryptography.ECC.ECPoint.FromBytes(privateKey, Cryptography.ECC.ECCurve.Secp256r1);
+                this.PublicKey = ECPoint.FromBytes(privateKey, ECCurve.Secp256r1);
             }
             this.PublicKeyHash = PublicKey.EncodePoint(true).ToScriptHash();
 #if NET461

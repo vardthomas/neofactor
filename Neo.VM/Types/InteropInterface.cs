@@ -1,4 +1,5 @@
 ﻿using System;
+using Neo.Common;
 
 namespace Neo.VM.Types
 {

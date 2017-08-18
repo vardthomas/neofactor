@@ -1,9 +1,10 @@
 ﻿using Neo.Core;
-using Neo.Cryptography;
-using Neo.IO;
 using System.Collections;
 using System.IO;
 using System.Linq;
+using Neo.Common;
+using Neo.Common.Cryptography;
+using Neo.Common.IO;
 
 namespace Neo.Network.Payloads
 {

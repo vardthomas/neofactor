@@ -1,10 +1,9 @@
-﻿using Neo.Core;
-using Microsoft.Extensions.Configuration;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.Extensions.Configuration;
 
-namespace Neo
+namespace Neo.Common
 {
     public class Settings
     {

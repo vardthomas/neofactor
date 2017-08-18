@@ -1,4 +1,6 @@
-﻿namespace Neo.Core
+﻿using Neo.Common;
+
+namespace Neo.Core
 {
     public class SpentCoin
     {

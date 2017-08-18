@@ -2,6 +2,7 @@
 using System;
 using System.Linq;
 using System.Numerics;
+using Neo.Common;
 using Array = Neo.VM.Types.Array;
 using Boolean = Neo.VM.Types.Boolean;
 

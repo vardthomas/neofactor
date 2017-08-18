@@ -1,4 +1,4 @@
-﻿namespace Neo.VM
+﻿namespace Neo.Common
 {
     public interface IInteropInterface
     {
