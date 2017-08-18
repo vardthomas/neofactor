@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Neo.Compiler
+namespace Neo.Compiler.MSIL
 {
     public class AntsModule
     {

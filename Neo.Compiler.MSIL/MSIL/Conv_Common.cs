@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Numerics;
 
-namespace Neo.Compiler.MSIL
+namespace Neo.Compiler.MSIL.MSIL
 {
     /// <summary>
     /// 从ILCode 向小蚁 VM 转换的转换器

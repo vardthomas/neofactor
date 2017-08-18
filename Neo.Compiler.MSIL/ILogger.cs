@@ -1,4 +1,4 @@
-﻿namespace Neo.Compiler
+﻿namespace Neo.Compiler.MSIL
 {
     public interface ILogger
     {
