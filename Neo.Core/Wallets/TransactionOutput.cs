@@ -3,6 +3,7 @@ using Neo.IO.Json;
 using Neo.VM;
 using System;
 using System.IO;
+using Neo.Wallets;
 
 namespace Neo.Core
 {

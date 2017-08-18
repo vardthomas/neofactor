@@ -131,7 +131,7 @@ namespace Neo.Implementations.Blockchains.LevelDB
             return true;
         }
 
-        protected override void AddHeaders(IEnumerable<Header> headers)
+        public override void AddHeaders(IEnumerable<Header> headers)
         {
             lock (header_index)
             {

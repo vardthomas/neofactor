@@ -12,6 +12,8 @@ using System.Runtime.Serialization;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Transactions;
+using ISerializable = Neo.IO.ISerializable;
+using Transaction = Neo.Core.Transaction;
 
 namespace Neo.Network
 {

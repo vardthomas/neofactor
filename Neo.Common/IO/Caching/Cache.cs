@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Neo.IO.Caching
 {
-    internal abstract class Cache<TKey, TValue> : ICollection<TValue>, IDisposable
+    public abstract class Cache<TKey, TValue> : ICollection<TValue>, IDisposable
     {
         protected class CacheItem
         {

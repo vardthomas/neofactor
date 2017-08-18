@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -9,13 +9,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel.Https" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.WebSockets" Version="2.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.0.0" />
-    <PackageReference Include="Microsoft.Framework.ConfigurationModel.Json" Version="1.0.0-beta4" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Neo.Common\Neo.Common.csproj" />
     <ProjectReference Include="..\Neo.VM\Neo.VM.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.Hosting">
+      <HintPath>..\..\..\..\..\..\..\Users\darcy\.nuget\packages\microsoft.aspnetcore.hosting\1.1.1\lib\net451\Microsoft.AspNetCore.Hosting.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>

@@ -8,6 +8,7 @@ using Neo.Wallets;
 using System;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -312,7 +313,10 @@ namespace Neo.Network.RPC
                 throw new ArgumentException();
             IWebHostBuilder builder = new WebHostBuilder();
             if (uriPrefix.Any(p => p.StartsWith("https")))
-                builder = builder.UseKestrel(options => options.UseHttps(sslCert, password));
+                builder = builder.UseKestrel(options => options.Listen(IPAddress.Any, 443, listenOptions =>
+                {
+                    listenOptions.UseHttps(sslCert, password);
+                }));
             else
                 builder = builder.UseKestrel();
             builder = builder.UseUrls(uriPrefix).Configure(app => app.Run(ProcessAsync));

@@ -47,7 +47,7 @@ namespace Neo.Core
         /// <summary>
         /// 资产清单的类型
         /// </summary>
-        InventoryType InventoryType => InventoryType.Block;
+        public InventoryType InventoryType => InventoryType.Block;
 
         public override int Size => base.Size + Transactions.GetVarSize();
 
