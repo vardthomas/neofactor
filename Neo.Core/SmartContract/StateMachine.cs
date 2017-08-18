@@ -1,16 +1,15 @@
-﻿using Neo.Core;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography;
 using System.Text;
 using Neo.Common;
 using Neo.Common.IO.Caching;
+using Neo.Core.Core;
 using Neo.VM;
 using ECCurve = Neo.Common.Cryptography.ECC.ECCurve;
 using ECPoint = Neo.Common.Cryptography.ECC.ECPoint;
 
-namespace Neo.SmartContract
+namespace Neo.Core.SmartContract
 {
     public class StateMachine : StateReader
     {

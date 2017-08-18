@@ -1,8 +1,7 @@
 ﻿using System;
 using System.IO;
-using Neo.Core.Consensus;
 
-namespace Neo.Consensus
+namespace Neo.Core.Consensus
 {
     internal class ChangeView : ConsensusMessage
     {

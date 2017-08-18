@@ -1,7 +1,6 @@
 ﻿using Neo.Common;
-using Neo.VM;
 
-namespace Neo.SmartContract
+namespace Neo.Core.SmartContract
 {
     internal class StorageContext : IInteropInterface
     {

@@ -1,13 +1,11 @@
-﻿using Neo.Core;
-using System;
+﻿using System;
 using System.Linq;
-using System.Security.Cryptography;
 using Neo.Common;
 using Neo.Common.Cryptography;
 using ECCurve = Neo.Common.Cryptography.ECC.ECCurve;
 using ECPoint = Neo.Common.Cryptography.ECC.ECPoint;
 
-namespace Neo.Wallets
+namespace Neo.Core.Wallets
 {
     public class KeyPair : IEquatable<KeyPair>
     {

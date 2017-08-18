@@ -6,7 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Neo.Common.IO;
 
-namespace Neo.Network
+namespace Neo.Core.Network
 {
     internal class WebSocketRemoteNode : RemoteNode
     {

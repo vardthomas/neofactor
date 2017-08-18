@@ -1,5 +1,4 @@
-﻿using Neo.Core;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security;
@@ -9,9 +8,10 @@ using System.Threading;
 using Neo.Common;
 using Neo.Common.Cryptography;
 using Neo.Common.IO.Caching;
+using Neo.Core.Core;
 using ECPoint = Neo.Common.Cryptography.ECC.ECPoint;
 
-namespace Neo.Wallets
+namespace Neo.Core.Wallets
 {
     public abstract class Wallet : IDisposable
     {

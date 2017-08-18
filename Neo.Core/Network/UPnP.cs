@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace Neo.Network
+namespace Neo.Core.Network
 {
     public class UPnP
     {

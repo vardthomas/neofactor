@@ -1,12 +1,12 @@
-﻿using Neo.Core;
-using System.Collections;
+﻿using System.Collections;
 using System.IO;
 using System.Linq;
 using Neo.Common;
 using Neo.Common.Cryptography;
 using Neo.Common.IO;
+using Neo.Core.Core;
 
-namespace Neo.Network.Payloads
+namespace Neo.Core.Network.Payloads
 {
     internal class MerkleBlockPayload : BlockBase
     {

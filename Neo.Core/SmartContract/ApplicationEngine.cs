@@ -1,9 +1,9 @@
-﻿using Neo.VM;
-using System;
+﻿using System;
 using System.Text;
 using Neo.Common;
+using Neo.VM;
 
-namespace Neo.SmartContract
+namespace Neo.Core.SmartContract
 {
     public class ApplicationEngine : ExecutionEngine
     {

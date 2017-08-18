@@ -1,13 +1,12 @@
-﻿using Neo.Core;
-using Neo.VM;
-using System;
+﻿using System;
 using System.IO;
 using System.Linq;
 using Neo.Common;
 using Neo.Common.Cryptography.ECC;
 using Neo.Common.IO;
+using Neo.VM;
 
-namespace Neo.Wallets
+namespace Neo.Core.Wallets
 {
     public class Contract : VerificationCode, IEquatable<Contract>, ISerializable
     {

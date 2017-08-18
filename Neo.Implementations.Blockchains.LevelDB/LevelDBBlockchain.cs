@@ -9,7 +9,9 @@ using Neo.Common;
 using Neo.Common.Cryptography.ECC;
 using Neo.Common.IO;
 using Neo.Common.IO.Caching;
-using Neo.SmartContract;
+using Neo.Core.Core;
+using Neo.Core.SmartContract;
+using Neo.Core.Wallets;
 
 namespace Neo.Implementations.Blockchains.LevelDB
 {

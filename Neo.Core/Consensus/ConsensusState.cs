@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Neo.Consensus
+namespace Neo.Core.Consensus
 {
     [Flags]
     internal enum ConsensusState : byte

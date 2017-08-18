@@ -1,11 +1,10 @@
-﻿using Neo.VM;
-using System;
+﻿using System;
 using System.IO;
 using Neo.Common;
 using Neo.Common.IO;
 using Neo.Common.IO.Json;
 
-namespace Neo.Core
+namespace Neo.Core.Core
 {
     public abstract class StateBase : IInteropInterface, ISerializable
     {

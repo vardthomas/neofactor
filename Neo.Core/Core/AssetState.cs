@@ -1,6 +1,4 @@
-﻿using Neo.VM;
-using Neo.Wallets;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
@@ -9,8 +7,9 @@ using Neo.Common;
 using Neo.Common.Cryptography.ECC;
 using Neo.Common.IO;
 using Neo.Common.IO.Json;
+using Neo.Core.Wallets;
 
-namespace Neo.Core
+namespace Neo.Core.Core
 {
     public class AssetState : StateBase, ICloneable<AssetState>
     {

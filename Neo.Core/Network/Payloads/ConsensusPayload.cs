@@ -1,14 +1,13 @@
-﻿using Neo.Core;
-using Neo.VM;
-using Neo.Wallets;
-using System;
+﻿using System;
 using System.IO;
 using Neo.Common;
 using Neo.Common.Cryptography;
 using Neo.Common.Cryptography.ECC;
 using Neo.Common.IO;
+using Neo.Core.Core;
+using Neo.Core.Wallets;
 
-namespace Neo.Network.Payloads
+namespace Neo.Core.Network.Payloads
 {
     public class ConsensusPayload : IInventory
     {

@@ -1,4 +1,4 @@
-﻿namespace Neo.Wallets
+﻿namespace Neo.Core.Wallets
 {
     public enum ContractType : byte
     {

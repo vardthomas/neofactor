@@ -1,4 +1,4 @@
-﻿namespace Neo.Core
+﻿namespace Neo.Core.Core
 {
     /// <summary>
     /// 资产类别

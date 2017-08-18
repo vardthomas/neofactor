@@ -1,10 +1,10 @@
-﻿using Neo.Core;
-using System;
+﻿using System;
 using System.IO;
 using Neo.Common;
 using Neo.Common.IO;
+using Neo.Core.Core;
 
-namespace Neo.Network.Payloads
+namespace Neo.Core.Network.Payloads
 {
     public class VersionPayload : ISerializable
     {

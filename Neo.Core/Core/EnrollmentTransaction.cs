@@ -1,5 +1,4 @@
-﻿using Neo.Wallets;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -7,8 +6,9 @@ using Neo.Common;
 using Neo.Common.Cryptography.ECC;
 using Neo.Common.IO;
 using Neo.Common.IO.Json;
+using Neo.Core.Wallets;
 
-namespace Neo.Core
+namespace Neo.Core.Core
 {
     [Obsolete]
     public class EnrollmentTransaction : Transaction

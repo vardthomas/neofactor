@@ -1,10 +1,9 @@
-﻿using Neo.VM;
-using System;
+﻿using System;
 using System.IO;
 using Neo.Common;
 using Neo.Common.IO;
 
-namespace Neo.Core
+namespace Neo.Core.Core
 {
     public class Header : BlockBase, IEquatable<Header>
     {

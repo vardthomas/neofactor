@@ -1,7 +1,7 @@
 ﻿using Neo.Common;
 using Neo.Common.Cryptography.ECC;
 
-namespace Neo.Core
+namespace Neo.Core.Core
 {
     /// <summary>
     /// 投票信息

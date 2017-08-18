@@ -1,12 +1,10 @@
-﻿using Neo.VM;
-using System;
+﻿using System;
 using System.IO;
 using Neo.Common;
 using Neo.Common.IO;
 using Neo.Common.IO.Json;
-using Neo.Wallets;
 
-namespace Neo.Core
+namespace Neo.Core.Wallets
 {
     /// <summary>
     /// 交易输出

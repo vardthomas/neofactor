@@ -1,5 +1,6 @@
 ﻿using Neo.Common;
 using Neo.Core;
+using Neo.Core.Core;
 using Neo.VM;
 
 namespace Neo.Implementations.Blockchains.LevelDB

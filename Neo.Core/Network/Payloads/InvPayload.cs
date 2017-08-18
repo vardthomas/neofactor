@@ -3,7 +3,7 @@ using System.IO;
 using Neo.Common;
 using Neo.Common.IO;
 
-namespace Neo.Network.Payloads
+namespace Neo.Core.Network.Payloads
 {
     internal class InvPayload : ISerializable
     {

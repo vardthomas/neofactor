@@ -1,9 +1,8 @@
-﻿using Neo.Core;
-using System;
+﻿using System;
 using Neo.Common;
 using Neo.Common.IO.Caching;
 
-namespace Neo.Wallets
+namespace Neo.Core.Wallets
 {
     public class Coin : IEquatable<Coin>, ITrackable<CoinReference>
     {

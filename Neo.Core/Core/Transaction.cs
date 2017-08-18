@@ -1,6 +1,4 @@
-﻿using Neo.Network;
-using Neo.VM;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -10,8 +8,9 @@ using Neo.Common;
 using Neo.Common.Cryptography;
 using Neo.Common.IO;
 using Neo.Common.IO.Json;
+using Neo.Core.Wallets;
 
-namespace Neo.Core
+namespace Neo.Core.Core
 {
     /// <summary>
     /// 一切交易的基类

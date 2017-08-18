@@ -1,12 +1,11 @@
-﻿using Neo.VM;
-using System;
+﻿using System;
 using System.IO;
 using System.Linq;
 using Neo.Common;
 using Neo.Common.IO;
 using Neo.Common.IO.Json;
 
-namespace Neo.Core
+namespace Neo.Core.Core
 {
     /// <summary>
     /// 交易特性

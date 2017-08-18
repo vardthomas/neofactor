@@ -1,6 +1,7 @@
 ﻿using Neo.Common;
+using Neo.Core.Wallets;
 
-namespace Neo.Core
+namespace Neo.Core.Core
 {
     public class SpentCoin
     {

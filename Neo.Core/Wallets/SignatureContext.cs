@@ -1,6 +1,4 @@
-﻿using Neo.Core;
-using Neo.VM;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -10,8 +8,9 @@ using System.Text;
 using Neo.Common;
 using Neo.Common.Cryptography.ECC;
 using Neo.Common.IO.Json;
+using Neo.VM;
 
-namespace Neo.Wallets
+namespace Neo.Core.Wallets
 {
     /// <summary>
     /// 签名上下文

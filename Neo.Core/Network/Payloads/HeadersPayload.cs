@@ -1,10 +1,10 @@
-﻿using Neo.Core;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Neo.Common.IO;
+using Neo.Core.Core;
 
-namespace Neo.Network.Payloads
+namespace Neo.Core.Network.Payloads
 {
     internal class HeadersPayload : ISerializable
     {

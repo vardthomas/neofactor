@@ -1,12 +1,11 @@
-﻿using Neo.Core;
-using System;
+﻿using System;
 using System.IO;
 using System.Linq;
 using Neo.Common;
 using Neo.Common.IO;
-using Neo.Core.Consensus;
+using Neo.Core.Core;
 
-namespace Neo.Consensus
+namespace Neo.Core.Consensus
 {
     internal class PerpareRequest : ConsensusMessage
     {

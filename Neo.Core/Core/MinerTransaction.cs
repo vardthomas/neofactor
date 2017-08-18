@@ -4,7 +4,7 @@ using System.Linq;
 using Neo.Common;
 using Neo.Common.IO.Json;
 
-namespace Neo.Core
+namespace Neo.Core.Core
 {
     /// <summary>
     /// 用于分配字节费的特殊交易

@@ -1,22 +1,20 @@
-﻿using Neo.Core;
-using Neo.Network.Payloads;
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
-using System.Runtime.Serialization;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Transactions;
 using Neo.Common;
 using Neo.Common.Cryptography;
 using Neo.Common.IO;
+using Neo.Core.Core;
+using Neo.Core.Network.Payloads;
 using ISerializable = Neo.Common.IO.ISerializable;
-using Transaction = Neo.Core.Transaction;
+using Transaction = Neo.Core.Core.Transaction;
 
-namespace Neo.Network
+namespace Neo.Core.Network
 {
     public abstract class RemoteNode : IDisposable
     {

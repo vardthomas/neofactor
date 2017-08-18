@@ -1,19 +1,19 @@
-﻿using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using Neo.Core;
-using Neo.Wallets;
-using System;
+﻿using System;
 using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Neo.Common;
 using Neo.Common.IO;
 using Neo.Common.IO.Json;
+using Neo.Core.Core;
+using Neo.Core.Wallets;
 
-namespace Neo.Network.RPC
+namespace Neo.Core.Network.RPC
 {
     public class RpcServer : IDisposable
     {

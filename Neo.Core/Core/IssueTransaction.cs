@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using Neo.Common;
 
-namespace Neo.Core
+namespace Neo.Core.Core
 {
     /// <summary>
     /// 用于分发资产的特殊交易

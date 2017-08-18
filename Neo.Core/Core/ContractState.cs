@@ -3,7 +3,7 @@ using Neo.Common;
 using Neo.Common.IO;
 using Neo.Common.IO.Json;
 
-namespace Neo.Core
+namespace Neo.Core.Core
 {
     public class ContractState : StateBase, ICloneable<ContractState>
     {

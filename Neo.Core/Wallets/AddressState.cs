@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Neo.Wallets
+namespace Neo.Core.Wallets
 {
     [Flags]
     internal enum AddressState : byte

@@ -1,5 +1,5 @@
 ﻿using System;
-using CoreTransaction = Neo.Core.Transaction;
+using CoreTransaction = Neo.Core.Core.Transaction;
 
 namespace Neo.Implementations.Wallets.EntityFramework
 {

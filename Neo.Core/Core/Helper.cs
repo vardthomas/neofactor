@@ -1,13 +1,13 @@
-﻿using Neo.SmartContract;
-using Neo.VM;
-using Neo.Wallets;
-using System;
+﻿using System;
 using System.IO;
 using System.Linq;
 using Neo.Common;
 using Neo.Common.Cryptography;
+using Neo.Core.SmartContract;
+using Neo.Core.Wallets;
+using Neo.VM;
 
-namespace Neo.Core
+namespace Neo.Core.Core
 {
     /// <summary>
     /// 包含一系列签名与验证的扩展方法

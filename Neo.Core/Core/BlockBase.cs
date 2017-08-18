@@ -1,13 +1,12 @@
-﻿using Neo.VM;
-using Neo.Wallets;
-using System;
+﻿using System;
 using System.IO;
 using Neo.Common;
 using Neo.Common.Cryptography;
 using Neo.Common.IO;
 using Neo.Common.IO.Json;
+using Neo.Core.Wallets;
 
-namespace Neo.Core
+namespace Neo.Core.Core
 {
     public abstract class BlockBase : IVerifiable
     {

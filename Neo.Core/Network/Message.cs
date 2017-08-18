@@ -8,7 +8,7 @@ using Neo.Common;
 using Neo.Common.Cryptography;
 using Neo.Common.IO;
 
-namespace Neo.Network
+namespace Neo.Core.Network
 {
     public class Message : ISerializable
     {

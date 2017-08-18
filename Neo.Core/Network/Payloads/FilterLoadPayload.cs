@@ -3,7 +3,7 @@ using System.IO;
 using Neo.Common.Cryptography;
 using Neo.Common.IO;
 
-namespace Neo.Network.Payloads
+namespace Neo.Core.Network.Payloads
 {
     internal class FilterLoadPayload : ISerializable
     {

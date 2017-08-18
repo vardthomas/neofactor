@@ -5,8 +5,9 @@ using System.Linq;
 using Neo.Common;
 using Neo.Common.IO;
 using Neo.Common.IO.Json;
+using Neo.Core.Wallets;
 
-namespace Neo.Core
+namespace Neo.Core.Core
 {
     public class ClaimTransaction : Transaction
     {

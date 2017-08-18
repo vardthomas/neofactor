@@ -5,7 +5,7 @@ using Neo.Common;
 using Neo.Common.Cryptography;
 using Neo.Common.IO;
 
-namespace Neo.Core
+namespace Neo.Core.Core
 {
     public class StorageKey : IEquatable<StorageKey>, ISerializable
     {

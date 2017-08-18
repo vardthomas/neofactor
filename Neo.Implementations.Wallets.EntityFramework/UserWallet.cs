@@ -1,5 +1,4 @@
 ﻿using Neo.Core;
-using Neo.Wallets;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,10 +7,12 @@ using System.Reflection;
 using System.Security;
 using Neo.Common;
 using Neo.Common.IO;
-using WalletCoin = Neo.Wallets.Coin;
-using WalletContract = Neo.Wallets.Contract;
-using WalletKeyPair = Neo.Wallets.KeyPair;
-using CoreTransaction = Neo.Core.Transaction;
+using Neo.Core.Core;
+using Neo.Core.Wallets;
+using WalletCoin = Neo.Core.Wallets.Coin;
+using WalletContract = Neo.Core.Wallets.Contract;
+using WalletKeyPair = Neo.Core.Wallets.KeyPair;
+using CoreTransaction = Neo.Core.Core.Transaction;
 
 namespace Neo.Implementations.Wallets.EntityFramework
 {

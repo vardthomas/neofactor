@@ -5,7 +5,7 @@ using System.Net;
 using Neo.Common;
 using Neo.Common.IO;
 
-namespace Neo.Network.Payloads
+namespace Neo.Core.Network.Payloads
 {
     internal class NetworkAddressWithTime : ISerializable
     {

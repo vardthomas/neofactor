@@ -1,12 +1,12 @@
-﻿using Neo.VM;
-using Neo.Wallets;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using Neo.Common;
 using Neo.Common.Cryptography.ECC;
+using Neo.Core.Wallets;
+using Neo.VM;
 
-namespace Neo.Core
+namespace Neo.Core.Core
 {
     /// <summary>
     /// 实现区块链功能的基类

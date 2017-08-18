@@ -2,7 +2,7 @@
 using System.IO;
 using Neo.Common;
 
-namespace Neo.Core
+namespace Neo.Core.Core
 {
     /// <summary>
     /// 合约交易，这是最常用的一种交易

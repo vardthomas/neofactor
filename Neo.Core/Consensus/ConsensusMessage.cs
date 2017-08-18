@@ -2,9 +2,8 @@
 using System.IO;
 using System.Reflection;
 using Neo.Common.IO;
-using Neo.Core.Consensus;
 
-namespace Neo.Consensus
+namespace Neo.Core.Consensus
 {
     internal abstract class ConsensusMessage : ISerializable
     {

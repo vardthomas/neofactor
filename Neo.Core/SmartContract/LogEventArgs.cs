@@ -1,8 +1,7 @@
-﻿using Neo.VM;
-using System;
+﻿using System;
 using Neo.Common;
 
-namespace Neo.SmartContract
+namespace Neo.Core.SmartContract
 {
     public class LogEventArgs : EventArgs
     {

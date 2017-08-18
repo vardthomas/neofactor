@@ -1,10 +1,10 @@
-﻿using Neo.Core;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using Neo.Common.IO;
 using Neo.Common.IO.Caching;
+using Neo.Core.Core;
 
-namespace Neo.SmartContract
+namespace Neo.Core.SmartContract
 {
     internal class CloneCache<TKey, TValue> : DataCache<TKey, TValue>
         where TKey : IEquatable<TKey>, ISerializable

@@ -3,9 +3,9 @@ using Neo.Common;
 using Neo.Common.Cryptography;
 using Neo.Common.Cryptography.ECC;
 using Neo.Common.IO;
-using Neo.Consensus;
-using Neo.Network.Payloads;
-using Neo.Wallets;
+using Neo.Core.Core;
+using Neo.Core.Network.Payloads;
+using Neo.Core.Wallets;
 
 namespace Neo.Core.Consensus
 {

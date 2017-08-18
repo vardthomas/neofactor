@@ -1,15 +1,15 @@
-﻿using Neo.Core;
-using Neo.VM;
-using Neo.Wallets;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
 using System.Text;
 using Neo.Common;
 using Neo.Common.Cryptography.ECC;
+using Neo.Core.Core;
+using Neo.Core.Wallets;
+using Neo.VM;
 
-namespace Neo.SmartContract
+namespace Neo.Core.SmartContract
 {
     public class StateReader : InteropService
     {

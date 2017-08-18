@@ -1,17 +1,16 @@
-﻿using Neo.Core;
-using Neo.Network;
-using Neo.Network.Payloads;
-using Neo.Wallets;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using Neo.Common;
 using Neo.Common.Cryptography;
 using Neo.Common.IO;
-using Neo.Core.Consensus;
+using Neo.Core.Core;
+using Neo.Core.Network;
+using Neo.Core.Network.Payloads;
+using Neo.Core.Wallets;
 
-namespace Neo.Consensus
+namespace Neo.Core.Consensus
 {
     public class ConsensusService : IDisposable
     {
