@@ -1,6 +1,7 @@
-﻿using Neo.Common.Primitives;
+﻿using Neo.Common;
+using Neo.Common.Primitives;
 
-namespace Neo.Common
+namespace Neo.Core.SmartContract
 {
     public class VerificationCode : ICode
     {
