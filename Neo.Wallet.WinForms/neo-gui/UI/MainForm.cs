@@ -275,7 +275,7 @@ namespace Neo.UI
                     File.Delete(acc_zip_path);
                 }
                 Blockchain.PersistCompleted += Blockchain_PersistCompleted;
-                Program.LocalNode.Start(Settings.Default.NodePort, Settings.Default.WsPort);
+                Program.LocalNode.Start(Properties.Settings.Default.NodePort, Properties.Settings.Default.WsPort);
             });
         }
 
@@ -442,8 +442,8 @@ namespace Neo.UI
             {
                 if (dialog.ShowDialog() != DialogResult.OK) return;
                 ChangeWallet(UserWallet.Create(dialog.WalletPath, dialog.Password));
-                Settings.Default.LastWalletPath = dialog.WalletPath;
-                Settings.Default.Save();
+                Properties.Settings.Default.LastWalletPath = dialog.WalletPath;
+                Properties.Settings.Default.Save();
             }
         }
 
@@ -475,8 +475,8 @@ namespace Neo.UI
                 }
                 if (dialog.RepairMode) wallet.Rebuild();
                 ChangeWallet(wallet);
-                Settings.Default.LastWalletPath = dialog.WalletPath;
-                Settings.Default.Save();
+                Properties.Settings.Default.LastWalletPath = dialog.WalletPath;
+                Properties.Settings.Default.Save();
             }
         }
 
@@ -842,7 +842,7 @@ namespace Neo.UI
             AssetState asset = (AssetState)listView2.SelectedItems[0].Tag;
             UInt160 hash = Contract.CreateSignatureRedeemScript(asset.Owner).ToScriptHash();
             string address = Wallet.ToAddress(hash);
-            string path = Path.Combine(Settings.Default.CertCachePath, $"{address}.cer");
+            string path = Path.Combine(Properties.Settings.Default.CertCachePath, $"{address}.cer");
             Process.Start(path);
         }
 
@@ -879,21 +879,21 @@ namespace Neo.UI
         private void listView1_DoubleClick(object sender, EventArgs e)
         {
             if (listView1.SelectedIndices.Count == 0) return;
-            string url = string.Format(Settings.Default.Urls.AddressUrl, listView1.SelectedItems[0].Text);
+            string url = string.Format(Properties.Settings.Default.Urls.AddressUrl, listView1.SelectedItems[0].Text);
             Process.Start(url);
         }
 
         private void listView2_DoubleClick(object sender, EventArgs e)
         {
             if (listView2.SelectedIndices.Count == 0) return;
-            string url = string.Format(Settings.Default.Urls.AssetUrl, listView2.SelectedItems[0].Name);
+            string url = string.Format(Properties.Settings.Default.Urls.AssetUrl, listView2.SelectedItems[0].Name);
             Process.Start(url);
         }
 
         private void listView3_DoubleClick(object sender, EventArgs e)
         {
             if (listView3.SelectedIndices.Count == 0) return;
-            string url = string.Format(Settings.Default.Urls.TransactionUrl, listView3.SelectedItems[0].Name);
+            string url = string.Format(Properties.Settings.Default.Urls.TransactionUrl, listView3.SelectedItems[0].Name);
             Process.Start(url);
         }
 
