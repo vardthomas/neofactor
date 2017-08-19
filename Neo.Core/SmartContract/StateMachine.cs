@@ -6,6 +6,7 @@ using Neo.Common;
 using Neo.Common.IO.Caching;
 using Neo.Common.Primitives;
 using Neo.Core.Core;
+using Neo.Core.State;
 using Neo.VM;
 using ECCurve = Neo.Common.Cryptography.ECC.ECCurve;
 using ECPoint = Neo.Common.Cryptography.ECC.ECPoint;

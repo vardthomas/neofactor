@@ -3,7 +3,7 @@ using System.Linq;
 using Neo.Common;
 using Neo.Common.IO;
 
-namespace Neo.Core.Core
+namespace Neo.Core.State
 {
     public class UnspentCoinState : StateBase
     {

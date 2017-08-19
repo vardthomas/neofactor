@@ -4,7 +4,7 @@ using Neo.Common;
 using Neo.Common.IO;
 using Neo.Common.IO.Json;
 
-namespace Neo.Core.Core
+namespace Neo.Core.State
 {
     public abstract class StateBase : IInteropInterface, ISerializable
     {

@@ -12,6 +12,7 @@ using Neo.Common.IO.Caching;
 using Neo.Common.Primitives;
 using Neo.Core.Core;
 using Neo.Core.SmartContract;
+using Neo.Core.State;
 using Neo.Core.Wallets;
 
 namespace Neo.Implementations.Blockchains.LevelDB

@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
-using Neo.Common;
 using Neo.Common.Cryptography.ECC;
 using Neo.Common.IO;
 using Neo.Common.IO.Json;
 using Neo.Common.Primitives;
+using Neo.Core.Core;
 using Neo.Core.Wallets;
 
-namespace Neo.Core.Core
+namespace Neo.Core.State
 {
     public class AssetState : StateBase, ICloneable<AssetState>
     {

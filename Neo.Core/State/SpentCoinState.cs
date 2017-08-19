@@ -1,10 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.IO;
-using Neo.Common;
 using Neo.Common.IO;
 using Neo.Common.Primitives;
 
-namespace Neo.Core.Core
+namespace Neo.Core.State
 {
     public class SpentCoinState : StateBase
     {

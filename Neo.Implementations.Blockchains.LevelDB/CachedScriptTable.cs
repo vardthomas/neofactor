@@ -2,6 +2,7 @@
 using Neo.Common.Primitives;
 using Neo.Core;
 using Neo.Core.Core;
+using Neo.Core.State;
 using Neo.VM;
 
 namespace Neo.Implementations.Blockchains.LevelDB

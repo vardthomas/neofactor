@@ -1,10 +1,10 @@
 ﻿using System.IO;
-using Neo.Common;
 using Neo.Common.IO;
 using Neo.Common.IO.Json;
 using Neo.Common.Primitives;
+using Neo.Core.Core;
 
-namespace Neo.Core.Core
+namespace Neo.Core.State
 {
     public class ContractState : StateBase, ICloneable<ContractState>
     {

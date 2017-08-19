@@ -1,7 +1,8 @@
 ﻿using System.IO;
 using Neo.Common.IO;
+using Neo.Core.Core;
 
-namespace Neo.Core.Core
+namespace Neo.Core.State
 {
     public class StorageItem : StateBase, ICloneable<StorageItem>
     {

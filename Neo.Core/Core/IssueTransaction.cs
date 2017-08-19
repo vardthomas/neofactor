@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using Neo.Common;
 using Neo.Common.Primitives;
+using Neo.Core.State;
 
 namespace Neo.Core.Core
 {

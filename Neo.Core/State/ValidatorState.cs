@@ -2,8 +2,9 @@
 using System.IO;
 using Neo.Common.Cryptography.ECC;
 using Neo.Common.IO;
+using Neo.Core.Core;
 
-namespace Neo.Core.Core
+namespace Neo.Core.State
 {
     public class ValidatorState : StateBase, ICloneable<ValidatorState>, IEquatable<ValidatorState>
     {
