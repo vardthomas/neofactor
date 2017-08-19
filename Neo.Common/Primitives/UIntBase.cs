@@ -3,7 +3,7 @@ using System.IO;
 using System.Linq;
 using Neo.Common.IO;
 
-namespace Neo.Common
+namespace Neo.Common.Primitives
 {
     public abstract class UIntBase : IEquatable<UIntBase>, ISerializable
     {

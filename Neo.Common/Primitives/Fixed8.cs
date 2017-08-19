@@ -2,7 +2,7 @@
 using System.IO;
 using Neo.Common.IO;
 
-namespace Neo.Common
+namespace Neo.Common.Primitives
 {
     /// <summary>
     /// 精确到10^-8的64位定点数，将舍入误差降到最低。
