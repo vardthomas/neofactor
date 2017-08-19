@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Text;
 using Neo.Common;
+using Neo.Common.Primitives;
 using Neo.VM;
 
 namespace Neo.Core.SmartContract

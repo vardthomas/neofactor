@@ -3,6 +3,7 @@ using System.IO;
 using System.Linq;
 using Neo.Common;
 using Neo.Common.IO.Json;
+using Neo.Common.Primitives;
 
 namespace Neo.Core.Core
 {

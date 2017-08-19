@@ -1,4 +1,5 @@
 ﻿using Neo.Common;
+using Neo.Common.Primitives;
 using Neo.Core.Wallets;
 
 namespace Neo.Core.Core

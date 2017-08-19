@@ -1,5 +1,6 @@
 ﻿using Neo.Common;
 using Neo.Common.Cryptography.ECC;
+using Neo.Common.Primitives;
 
 namespace Neo.Core.Core
 {

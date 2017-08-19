@@ -6,6 +6,7 @@ using Neo.Common;
 using Neo.Common.Cryptography;
 using Neo.Common.IO;
 using Neo.Common.IO.Json;
+using Neo.Common.Primitives;
 
 namespace Neo.Core.Core
 {

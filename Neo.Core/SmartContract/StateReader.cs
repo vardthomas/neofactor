@@ -5,6 +5,7 @@ using System.Numerics;
 using System.Text;
 using Neo.Common;
 using Neo.Common.Cryptography.ECC;
+using Neo.Common.Primitives;
 using Neo.Core.Core;
 using Neo.Core.Wallets;
 using Neo.VM;

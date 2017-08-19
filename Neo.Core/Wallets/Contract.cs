@@ -4,6 +4,7 @@ using System.Linq;
 using Neo.Common;
 using Neo.Common.Cryptography.ECC;
 using Neo.Common.IO;
+using Neo.Common.Primitives;
 using Neo.VM;
 
 namespace Neo.Core.Wallets

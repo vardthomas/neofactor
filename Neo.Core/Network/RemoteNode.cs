@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using Neo.Common;
 using Neo.Common.Cryptography;
 using Neo.Common.IO;
+using Neo.Common.Primitives;
 using Neo.Core.Core;
 using Neo.Core.Network.Payloads;
 using ISerializable = Neo.Common.IO.ISerializable;

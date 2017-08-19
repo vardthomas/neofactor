@@ -7,6 +7,7 @@ using System.Reflection;
 using System.Security;
 using Neo.Common;
 using Neo.Common.IO;
+using Neo.Common.Primitives;
 using Neo.Core.Core;
 using Neo.Core.Wallets;
 using WalletCoin = Neo.Core.Wallets.Coin;

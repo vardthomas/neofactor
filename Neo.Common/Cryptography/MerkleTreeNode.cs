@@ -1,4 +1,6 @@
-﻿namespace Neo.Common.Cryptography
+﻿using Neo.Common.Primitives;
+
+namespace Neo.Common.Cryptography
 {
     internal class MerkleTreeNode
     {

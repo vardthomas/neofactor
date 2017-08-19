@@ -3,6 +3,7 @@ using System.IO;
 using System.Linq;
 using Neo.Common;
 using Neo.Common.Cryptography;
+using Neo.Common.Primitives;
 using Neo.Core.SmartContract;
 using Neo.Core.Wallets;
 using Neo.VM;

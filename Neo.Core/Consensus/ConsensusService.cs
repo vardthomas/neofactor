@@ -5,6 +5,7 @@ using System.Threading;
 using Neo.Common;
 using Neo.Common.Cryptography;
 using Neo.Common.IO;
+using Neo.Common.Primitives;
 using Neo.Core.Core;
 using Neo.Core.Network;
 using Neo.Core.Network.Payloads;

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Neo.Common;
 using Neo.Common.Cryptography.ECC;
+using Neo.Common.Primitives;
 using Neo.Core.Wallets;
 using Neo.VM;
 

@@ -3,6 +3,7 @@ using Neo.Common;
 using Neo.Common.Cryptography;
 using Neo.Common.Cryptography.ECC;
 using Neo.Common.IO;
+using Neo.Common.Primitives;
 using Neo.Core.Core;
 using Neo.Core.Network.Payloads;
 using Neo.Core.Wallets;

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using Neo.Common;
 using Neo.Common.IO.Caching;
+using Neo.Common.Primitives;
 using Neo.Core.Core;
 using Neo.VM;
 using ECCurve = Neo.Common.Cryptography.ECC.ECCurve;

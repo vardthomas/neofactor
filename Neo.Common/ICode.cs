@@ -1,4 +1,6 @@
-﻿namespace Neo.Common
+﻿using Neo.Common.Primitives;
+
+namespace Neo.Common
 {
     public interface ICode
     {

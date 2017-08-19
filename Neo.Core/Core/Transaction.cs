@@ -8,6 +8,7 @@ using Neo.Common;
 using Neo.Common.Cryptography;
 using Neo.Common.IO;
 using Neo.Common.IO.Json;
+using Neo.Common.Primitives;
 using Neo.Core.Wallets;
 
 namespace Neo.Core.Core

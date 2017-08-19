@@ -4,6 +4,7 @@ using System.Linq;
 using Neo.Common;
 using Neo.Common.Cryptography;
 using Neo.Common.IO;
+using Neo.Common.Primitives;
 using Neo.Core.Core;
 
 namespace Neo.Core.Network.Payloads

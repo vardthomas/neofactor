@@ -1,5 +1,6 @@
 ﻿using System;
 using Neo.Common;
+using Neo.Common.Primitives;
 
 namespace Neo.Core.SmartContract
 {

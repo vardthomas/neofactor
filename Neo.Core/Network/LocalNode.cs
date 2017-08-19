@@ -16,6 +16,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Neo.Common;
 using Neo.Common.IO.Caching;
+using Neo.Common.Primitives;
 using Neo.Core.Core;
 
 namespace Neo.Core.Network

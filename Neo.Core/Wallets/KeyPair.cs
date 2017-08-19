@@ -2,6 +2,7 @@
 using System.Linq;
 using Neo.Common;
 using Neo.Common.Cryptography;
+using Neo.Common.Primitives;
 using ECCurve = Neo.Common.Cryptography.ECC.ECCurve;
 using ECPoint = Neo.Common.Cryptography.ECC.ECPoint;
 

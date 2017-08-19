@@ -8,6 +8,7 @@ using System.Text;
 using Neo.Common;
 using Neo.Common.Cryptography.ECC;
 using Neo.Common.IO.Json;
+using Neo.Common.Primitives;
 using Neo.VM;
 
 namespace Neo.Core.Wallets

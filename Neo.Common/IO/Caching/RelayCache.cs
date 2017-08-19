@@ -1,4 +1,6 @@
-﻿namespace Neo.Common.IO.Caching
+﻿using Neo.Common.Primitives;
+
+namespace Neo.Common.IO.Caching
 {
     public class RelayCache : FIFOCache<UInt256, IInventory>
     {
