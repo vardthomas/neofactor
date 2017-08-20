@@ -22,7 +22,7 @@ namespace Neo.Cryptography
 
         static CertificateQueryService()
         {
-            Directory.CreateDirectory(Settings.Default.CertCachePath);
+            Directory.CreateDirectory(Properties.Settings.Default.CertCachePath);
         }
 
         private static void Web_DownloadDataCompleted(object sender, DownloadDataCompletedEventArgs e)
@@ -40,7 +40,7 @@ namespace Neo.Cryptography
                 else
                 {
                     string address = Wallet.ToAddress(hash);
-                    string path = Path.Combine(Settings.Default.CertCachePath, $"{address}.cer");
+                    string path = Path.Combine(Properties.Settings.Default.CertCachePath, $"{address}.cer");
                     File.WriteAllBytes(path, e.Result);
                     lock (results)
                     {
@@ -63,7 +63,7 @@ namespace Neo.Cryptography
                 results[hash] = new CertificateQueryResult { Type = CertificateQueryResultType.Querying };
             }
             string address = Wallet.ToAddress(hash);
-            string path = Path.Combine(Settings.Default.CertCachePath, $"{address}.cer");
+            string path = Path.Combine(Properties.Settings.Default.CertCachePath, $"{address}.cer");
             if (File.Exists(path))
             {
                 lock (results)
@@ -87,7 +87,7 @@ namespace Neo.Cryptography
             X509Certificate2 cert;
             try
             {
-                cert = new X509Certificate2(Path.Combine(Settings.Default.CertCachePath, $"{address}.cer"));
+                cert = new X509Certificate2(Path.Combine(Properties.Settings.Default.CertCachePath, $"{address}.cer"));
             }
             catch (CryptographicException)
             {

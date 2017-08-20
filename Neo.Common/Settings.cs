@@ -18,7 +18,7 @@ namespace Neo.Common
 
         static Settings()
         {
-            IConfigurationSection section = null;// = new ConfigurationBuilder().AddJsonFile("protocol.json").Build().GetSection("ProtocolConfiguration");
+            IConfigurationSection section = new ConfigurationBuilder().AddJsonFile("protocol.json").Build().GetSection("ProtocolConfiguration");
             Default = new Settings
             {
                 Magic = uint.Parse(section.GetSection("Magic").Value),
