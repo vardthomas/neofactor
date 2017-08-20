@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel.Https" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.WebSockets" Version="2.0.0" />
@@ -18,12 +19,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Neo.Common\Neo.Common.csproj" />
     <ProjectReference Include="..\Neo.VM\Neo.VM.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="Microsoft.AspNetCore.Hosting">
-      <HintPath>..\..\..\..\..\..\..\Users\darcy\.nuget\packages\microsoft.aspnetcore.hosting\1.1.1\lib\net451\Microsoft.AspNetCore.Hosting.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
   <ItemGroup>
